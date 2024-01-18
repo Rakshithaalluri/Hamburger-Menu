@@ -5,7 +5,12 @@ const Home = () => (
   <div className="home-container">
     <img
       src="https://assets.ccbp.in/frontend/react-js/home-lg-img.png"
-      className="home-image"
+      className="desktop-home-image"
+      alt="home"
+    />
+    <img
+      src="https://assets.ccbp.in/frontend/react-js/home-sm-img.png"
+      className="home-small-image"
       alt="home"
     />
   </div>

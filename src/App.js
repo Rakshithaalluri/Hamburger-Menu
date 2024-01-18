@@ -1,4 +1,4 @@
-import {Route, Switch} from 'react-router-dom'
+import {Route, Switch, Redirect} from 'react-router-dom'
 import Header from './components/Header'
 import Home from './components/Home'
 import About from './components/About'
@@ -11,7 +11,8 @@ const App = () => (
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
-        <Route component={NotFound} />
+        <Route exact path="/not-found" component={NotFound} />
+        <Redirect to="not-found" />
       </Switch>
     </div>
   </div>

@@ -5,7 +5,12 @@ const About = () => (
   <div className="home-container">
     <img
       src="https://assets.ccbp.in/frontend/react-js/about-lg-img.png"
-      className="home-image"
+      className="desktop-home-image"
+      alt="about"
+    />
+    <img
+      src="https://assets.ccbp.in/frontend/react-js/about-sm-img.png "
+      className="home-small-image"
       alt="about"
     />
   </div>
